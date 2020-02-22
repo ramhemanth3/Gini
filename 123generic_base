@@ -1,0 +1,15 @@
+https://scikit-learn.org/stable/modules/tree.html
+https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier
+
+River water availability using gini index
+To measure the river water availability between two given points of a river, using gini index.
+
+Determination of risk category of cardiostimulatory drugs based on Gini index of side effects
+https://www.medicalnewstoday.com/articles/196135.php
+
+https://www.webmd.com/heart-disease/atrial-fibrillation/medicines-raise-heart-rate
+normal heart rate at relaxing stage: 60 to 76 bpm
+Normal heart rate after strenous activity(5 mins.running/speed wlak): 76 to 100 bpm
+normal diastolic BP: 60 to 80
+Normal systolic BP: 90 to 120
+riskcat:0,1,2,3(0 - no risk, 1-low risk, 2-medium risk, 3-high risk)

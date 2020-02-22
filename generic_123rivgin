@@ -1,0 +1,31 @@
+Title: River water availability using gini index
+
+login into mysql as root...123456
+CREATE DATABASE rivgin1;
+#create user 'team1'@'localhost' identified by 'test623';
+GRANT ALL ON rivgin1.* TO 'team1'@'localhost';
+
+use rivgin1;
+
+CREATE TABLE river
+(
+name VARCHAR(40),
+ncity VARCHAR(40),
+dist VARCHAR(12),
+distbp VARCHAR(4),
+distp1 VARCHAR(3),
+distp2 VARCHAR(3),
+country VARCHAR(30)
+);
+
+CREATE TABLE points
+(
+rname VARCHAR(40),p1low VARCHAR(10),p1high VARCHAR(10),p2low VARCHAR(10),p2high VARCHAR(10),avail VARCHAR(3)
+);
+
+
+
+import pymysql
+con = pymysql.connect(host='localhost', port=3306, user='team1', passwd='test623', db='rivgin1')
+cur = con.cursor()
+
